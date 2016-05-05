@@ -1,26 +1,30 @@
 {
-  "name": "es6-detector",
+  "name": "caniuse-es6",
   "version": "0.1.0",
-  "description": "ES6 Detector",
-  "main": "index.js",
+  "description": "Can I use es6",
+  "main": "lib/index.js",
   "scripts": {
-    "detect": "node index.js"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/meikidd/es6-detector.git"
+    "url": "git+ssh://git@github.com/meikidd/caniuse-es6.git"
   },
   "keywords": [
     "es6",
-    "detector"
+    "caniuse",
+    "compat-table"
   ],
   "author": "meikidd <meikidd@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/meikidd/es6-detector/issues"
+    "url": "https://github.com/meikidd/caniuse-es6/issues"
   },
-  "homepage": "https://github.com/meikidd/es6-detector#readme",
+  "homepage": "https://github.com/meikidd/caniuse-es6#readme",
   "publishConfig": {
     "registry": "http://registry.npm.alibaba-inc.com"
+  },
+  "devDependencies": {
+    "mocha": "~2.4.5"
   }
 }
