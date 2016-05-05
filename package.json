@@ -4,8 +4,7 @@
   "description": "ES6 Detector",
   "main": "index.js",
   "scripts": {
-    "test": "mocha",
-    "build": "babel src --out-dir build"
+    "detect": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -23,9 +22,5 @@
   "homepage": "https://github.com/meikidd/es6-detector#readme",
   "publishConfig": {
     "registry": "http://registry.npm.alibaba-inc.com"
-  },
-  "devDependencies": {
-    "babel": "~5.8.12",
-    "mocha": "~2.4.5"
   }
 }
